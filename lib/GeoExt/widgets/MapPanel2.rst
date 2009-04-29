@@ -1,7 +1,7 @@
 
 .. currentmodule:: GeoExt
 
-:class:`GeoExt.MapPanel`
+:class:`GeoExt.MapPanel2`
 =================================
 
 
@@ -10,47 +10,25 @@
 
 Extends
     * `Ext.Panel <http://extjs.com/deploy/dev/docs/?class=Ext.Panel>`_
-    
+    * :class:`GeoExt.MapPanel`
 
 
 
 xtype
-    ``gx_mappanel``
+    ``gx_mappanel2``
 
 
 
-.. class:: MapPanel(config)
+.. class:: MapPanel2(config)
 
-    Create a panel container for a map.
+    This is the content for 2.
 
 
 
 Example Use
 -----------
 
-Sample code to create a panel with a new map:
-
-.. code-block:: javascript
-
-    var mapPanel = new GeoExt.MapPanel({
-        border: false,
-        renderTo: "div-id",
-        map: {
-            maxExtent: new OpenLayers.Bounds(-90, -45, 90, 45)
-        }
-    });
-
-Sample code to create a map panel with a bottom toolbar in a Window:
-
-.. code-block:: javascript
-
-    var win = new Ext.Window({
-        title: "My Map",
-        items: [{
-            xtype: "gx_mappanel",
-            bbar: new Ext.Toolbar()
-        }]
-    });
+Pretend some example goes here.
 
     
 
@@ -72,6 +50,10 @@ those listed for `Ext.Panel <http://extjs.com/deploy/dev/docs/?class=Ext.Panel>`
     ``OpenLayers.Bounds or Array(Number)``  An initial extent for the map (used
     if center and zoom are not provided.  If an array, the first four items
     should be minx, miny, maxx, maxy.
+
+.. describe:: foo
+
+    This foo comes from MapPanel2
 
 .. describe:: layers
 
@@ -99,16 +81,28 @@ Public properties in addition to those
 listed for `Ext.Panel <http://extjs.com/deploy/dev/docs/?class=Ext.Panel>`_.
 
 
-.. attribute:: MapPanel.layers
+.. attribute:: MapPanel2.layers
 
     :class:`GeoExt.data.LayerStore`  A store containing
     :class:`GeoExt.data.LayerRecord` objects.
 
-.. attribute:: MapPanel.map
+.. attribute:: MapPanel2.map
 
     ``OpenLayers.Map``  A configured map object.
 
 
 
 
+
+
+Events
+------
+
+Events in addition to those
+listed for `Ext.Panel <http://extjs.com/deploy/dev/docs/?class=Ext.Panel>`_.
+
+
+.. describe:: bar
+
+    This class might have some custom events.
 
