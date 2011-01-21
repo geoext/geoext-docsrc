@@ -53,7 +53,7 @@ navigation.
         <link rel="stylesheet" type="text/css" href="ext-3.2.1/resources/ext-all.css"></link>
         <script src="OpenLayers/OpenLayers.js" type="text/javascript"></script>
         <script src="GeoExt/lib/GeoExt.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="GeoExt/resources/geoext-all-debug.css"></link>
+        <link rel="stylesheet" type="text/css" href="GeoExt/resources/css/geoext-all-debug.css"></link>
 
 #.  Create a ``<div>`` element in your web page with its ``id``
     attribute set to ``gxmap``.  We will use the ``id`` to attach a
