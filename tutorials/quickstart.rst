@@ -25,7 +25,9 @@ GeoExt for use on your own web pages is a multi-step process:
 #.  Place both unpacked libraries in a directory that is published by your web
     server. For this tutorial, I will assume that this is the root of your web
     server, so that GeoExt.js is at http://localhost/GeoExt/lib/GeoExt.js and
-    ext-all.js is at http://localhost/ext-3.2.1/ext-all.js
+    ext-all.js is at http://localhost/ext-3.2.1/ext-all.js. I will also assume
+    that your web page is stored at the root of the web server, e.g.
+    http://localhost/quickstart.html.
 
 #.  Now you're ready to use GeoExt in your application!
 
