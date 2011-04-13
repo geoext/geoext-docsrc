@@ -20,12 +20,12 @@ GeoExt for use on your own web pages is a multi-step process:
 
 #.  Download OpenLayers 2.10 or later from http://openlayers.org/. 
 
-#.  Download ExtJS 3.2 from `the ExtJS website <http://www.sencha.com/products/js/download.php>`_.
+#.  Download the latest Ext 3.x from `the ExtJS website <http://www.sencha.com/products/extjs/download/>`_.
 
 #.  Place both unpacked libraries in a directory that is published by your web
     server. For this tutorial, I will assume that this is the root of your web
     server, so that GeoExt.js is at http://localhost/GeoExt/lib/GeoExt.js and
-    ext-all.js is at http://localhost/ext-3.2.1/ext-all.js. I will also assume
+    ext-all.js is at http://localhost/ext-3.3.1/ext-all.js. I will also assume
     that your web page is stored at the root of the web server, e.g.
     http://localhost/quickstart.html.
 
@@ -50,9 +50,9 @@ navigation.
 
     .. code-block:: html
     
-        <script src="ext-3.2.1/adapter/ext/ext-base.js" type="text/javascript"></script>
-        <script src="ext-3.2.1/ext-all.js"  type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="ext-3.2.1/resources/ext-all.css"></link>
+        <script src="ext-3.3.1/adapter/ext/ext-base.js" type="text/javascript"></script>
+        <script src="ext-3.3.1/ext-all.js"  type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="ext-3.3.1/resources/ext-all.css"></link>
         <script src="OpenLayers/OpenLayers.js" type="text/javascript"></script>
         <script src="GeoExt/lib/GeoExt.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="GeoExt/resources/css/geoext-all-debug.css"></link>
@@ -93,9 +93,9 @@ The entire source of your page should look something like:
     <head>
 
     <title> A Basic GeoExt Page </title>
-    <script src="ext-3.2.1/adapter/ext/ext-base.js" type="text/javascript"></script>
-    <script src="ext-3.2.1/ext-all.js"  type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="ext-3.2.1/resources/ext-all.css"></link>
+    <script src="ext-3.3.1/adapter/ext/ext-base.js" type="text/javascript"></script>
+    <script src="ext-3.3.1/ext-all.js"  type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="ext-3.3.1/resources/ext-all.css"></link>
     <script src="OpenLayers/OpenLayers.js" type="text/javascript"></script>
     <script src="GeoExt/lib/GeoExt.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="GeoExt/resources/geoext-all-debug.css"></link>
