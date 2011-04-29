@@ -20,7 +20,7 @@ GeoExt for use on your own web pages is a multi-step process:
 
 #.  Download OpenLayers 2.10 or later from http://openlayers.org/. 
 
-#.  Download the latest Ext 3.x from `the ExtJS website <http://www.sencha.com/products/extjs/download/>`_.
+#.  Download the latest Ext 3.x from `the ExtJS website <http://www.sencha.com/learn/Ext_Version_Archives>`_.
 
 #.  Place both unpacked libraries in a directory that is published by your web
     server. For this tutorial, I will assume that this is the root of your web
