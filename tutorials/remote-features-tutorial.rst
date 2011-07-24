@@ -103,7 +103,7 @@ that allows us to view the features in a tabular format::
     
     new Ext.grid.GridPanel({
         title: 'Sundials',
-        store: store
+        store: store,
         columns: [{heading: 'Title', dataIndex: 'title'},
                   {heading: 'Description', dataIndex: 'description'}],
         renderTo: "grid",
