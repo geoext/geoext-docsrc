@@ -95,7 +95,7 @@ The entire source of your page should look something like:
     <title> A Basic GeoExt Page </title>
     <script src="ext-3.3.1/adapter/ext/ext-base.js" type="text/javascript"></script>
     <script src="ext-3.3.1/ext-all.js"  type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="ext-3.3.1/resources/ext-all.css"></link>
+    <link rel="stylesheet" type="text/css" href="ext-3.3.1/resources/css/ext-all.css"></link>
     <script src="OpenLayers/OpenLayers.js" type="text/javascript"></script>
     <script src="GeoExt/lib/GeoExt.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="GeoExt/resources/geoext-all-debug.css"></link>

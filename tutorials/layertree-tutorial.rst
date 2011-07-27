@@ -89,9 +89,9 @@ allow for automatic drag-n-drop support.
 Visibility Grouping
 ===================
 
-The concept of a base layer in OpenLayers is just a gruop of layers that are on
+The concept of a base layer in OpenLayers is just a group of layers that are on
 the bottom of the layer stack, and only one can be visible at a time. In maps
-without base layers (when ``allOverlays`` is set to true, the latter can be
+without base layers (when ``allOverlays`` is set to true), the latter can be
 enforced by configuring a ``checkedGroup`` on a LayerNode. Such a layer node
 will be rendered with a radio button instead of a check box. Of all layers
 configured with the same ``checkedGroup``, only one will be visible at a time:
