@@ -5,7 +5,7 @@
 Current Release
 ---------------
 
- * GeoExt 1.1-rc1 (`Sources + Full Build <http://trac.geoext.org/attachment/wiki/Download/GeoExt-1.1-rc1.zip?format=raw>`__ | `Release Notes <http://trac.geoext.org/wiki/Release/1.1/Notes>`__)
+ * GeoExt 1.1-rc1 (`Sources + Full Build <https://github.com/downloads/geoext/geoext/GeoExt-1.1-rc1.zip>`__ | `Release Notes <http://trac.geoext.org/wiki/Release/1.1/Notes>`__)
 
 Previous Releases
 -----------------
