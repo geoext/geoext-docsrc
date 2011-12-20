@@ -27,7 +27,7 @@ that displays data from a KML. Copy :download:`this sample KML file
 <sundials.kml>` to the same directory with your GeoExt and Ext libraries. Then
 we can load it with some JavaScript::
 
-    var map = new Openlayers.Map();
+    var map = new OpenLayers.Map();
     var bluemarble = new OpenLayers.Layer.WMS(
         "Global Imagery",
         "http://maps.opengeo.org/geowebcache/service/wms",
