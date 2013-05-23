@@ -49,10 +49,10 @@ community of individuals, businesses and organizations.
 
 GeoExt depends on Ext JS, which can be used with a
 `FLOSS exception for applications
-<http://www.sencha.com/legal/open-source-faq/open-source-license-exception-for-applications/">_`
+<http://www.sencha.com/legal/open-source-faq/open-source-license-exception-for-applications/">`_
 if your application is open source, or with the purchase of a commercial license otherwise.
 GeoExt itself uses Ext JS with a `FLOSS exception for development
-<http://www.sencha.com/legal/open-source-faq/open-source-license-exception-for-development/">_`.
+<http://www.sencha.com/legal/open-source-faq/open-source-license-exception-for-development/">`_.
 
 
 .. toctree::
