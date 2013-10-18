@@ -40,6 +40,16 @@ See GeoExt in action.
 Learn more about using GeoExt in your application by reading the
 :doc:`documentation <docs>`.
 
+A notice about GeoExt versions
+------------------------------
+
+This website is about GeoExt 1.x, based on Ext JS 3. There is also a version of
+GeoExt that is capable of working on top of the newest Ext JS: GeoExt 2.
+
+Please refer to
+`http://geoext.github.io/geoext2/ <http://geoext.github.io/geoext2/>`_ for
+documentation, examples and more information about GeoExt 2.
+
 
 GeoExt is Open Source
 ---------------------
